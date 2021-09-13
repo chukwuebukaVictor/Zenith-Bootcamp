@@ -1,23 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-	<link rel="stylesheet" href="style.css">
-	<script src="https://kit.fontawesome.com/e98a0f000a.js" crossorigin="anonymous"></script>
-
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-RRZX422MDS"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+		
+			gtag('config', 'G-RRZX422MDS');
+		</script>
+		<link
+		rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+		crossorigin="anonymous"
+	/>
+			<link rel="stylesheet" href="styles.css">
+			<script src="https://kit.fontawesome.com/e98a0f000a.js" crossorigin="anonymous"></script>
+		
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zenith Bootcamp</title>
 </head>
 <body>
-    
+	<nav class="menu-wrap">
+		<input type="checkbox" class="toggler">
+		<div class="hamburger"><div></div></div>
+		<div class="menu">
+			<div class="one">
+				<div class="two">
+					<ul class="nav1">
+						<div class="nav1-items">
+						  <li class="d-flex">
+								<i class="nav-link fab fa-facebook-f"></i>
+								<i class="nav-link fab fa-twitter"></i>
+						  </li>
+						  <li><a href="#"><select name="languages" class="languages" id="langs">
+							  <option class="language" value="english">English</option>
+							  <option class="language" value="spanish">Spanish</option>
+							  <option class="language" value="french">French</option></select></a>
+					    </li>
+						  <li><a class="nav1-item" href="#">My page</a></li>
+						  <li><a class="nav1-item" href="#">Logout</a></li>
+						</div>
+					</ul>
+					<ul class="nav2">
+						<div class="logo">
+							<img src="img/zenith.jpeg" alt="zenith logo">
+						</div>
+						<div class="nav2-items">
+							<li><a class="about"href="#">About</a></li>
+							<li><a class="nav2-link" href="#">Program</a></li>
+							<li><a class="nav2-link" href="#">Join</a></li>
+							<li><a class="nav2-link" href="#">Sponsor</a></li>
+							<li><a class="nav2-link" href="#">News</a></li>
+							<li><a class="campaign" href="#">Campaign</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	 <header class="showcase">
+		 <div class="container showcase-inner">
+			<h1 class="desc">Bootcamp school to become a full Stack web developer</h1>
+			 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ratione laboriosam earum aspernatur alias iure atque! Natus facilis vitae et quae, saepe, minus placeat culpa, sint at nemo inventore tenetur! </p>
+			 <a href="#" class="btn">Read more</a>
+		 </div>
+	 </header>
+	<!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-pad">
+	  <button clas s="navbar-toggler" data toggle="collapse" data-target="#nav1">
+		  <span></span><span></span><span></span>
+		</button>
+		  <div class="collapse navbar-collapse navbars" id="collapse_target1">
+		    <ul class="navbar-nav ms-auto d-flex flex-row justify-content-end ">
+				  <li class="d-flex">
+				    <i class="nav-link fab fa-facebook-f"></i>
+				    <i class="nav-link fab fa-twitter"></i>
+				  </li>
+				  <li class="nav-item dropdown">
+				  	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  		English
+				  	</a>	
+				    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  		<li><a href="#" class="dropdown-item">English</a></li>
+				  		<li><a href="#" class="dropdown-item">Spanish</a></li>
+				  		<li><a href="#" class="dropdown-item">French</a></li>
+				  	</ul>
+				  </li>
+				  <li class="nav-item">
+				  	<a class="nav-link" href="#">My page</a>
+				  </li>
+				  <li class="nav-item">
+				  	<a href="#" class="nav-link">Logout</a>
+				  </li>
+			  </ul>  
+	    </div>
+	</nav>
+	<nav class="navbar navbar-expand-sm navbar-light bg-light py-3 navbar-pad">
+		<div class="collapse navbar-collapse navbars d-flex justify-content-between" id="collapse_target2">
+			<a class="navbar-brand" href="#"><img src="img/zenith.jpeg" alt="zenith logo"></a>
+			<ul class="navbar-nav ms-auto align-items-center">
+				<li class="nav-item">
+					<a class="nav-link orange" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Program</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Join</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Sponsor</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">News</a>
+				</li>
+				<li class="nav-item emphasis">
+					<a class="nav-link orange" href="#">Campaign</a>
+				</li>
+			</ul>
+		</div>
+	</nav> -->
+	<!-- <main>
+		<section class="intro">
+			<h1 class="desc">Bootcamp school to become a full Stack web developer</h1>
+		</section>
+	</main>
+
+	</section> -->
 </body>
 </html>
