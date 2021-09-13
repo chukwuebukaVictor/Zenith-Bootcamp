@@ -302,7 +302,7 @@ a{
 hr{
 	background-color: rgb(250, 19, 19);
 	font-weight: bolder;
-	width: 20%;
+	width: 10%;
 }
 
 .program{
@@ -348,6 +348,23 @@ h5{
 u{
 	padding:1rem 0 3rem 0;
 }
+
+.footer{
+	margin-top: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #414246;
+	color: #fff;
+}
+
+.footer-logos{
+	display: flex;
+	justify-content: center;
+
+}
+
 
 
 @media screen and (max-width: 760px) {
