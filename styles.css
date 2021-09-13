@@ -297,6 +297,7 @@ a{
 
 .img-logo{
 	width: 15%;
+	padding-top: 1rem;
 }
 
 hr{
@@ -331,7 +332,7 @@ hr{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 20rem;
+	height: 20rem ;
 }
 
 h5{
@@ -342,27 +343,35 @@ h5{
 
 .html p, .css p, .script p,.backend p{
 	font-size: small;
-	max-width: 80%;
+	padding-left: 0.5rem; 
+	width: 80%;
+	height: 100%;
 }
 
 u{
 	padding:1rem 0 3rem 0;
 }
 
-.footer{
-	margin-top: 10rem;
+.footer1{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background-color: #414246;
 	color: #fff;
+	margin: 10rem 0rem 5rem 0rem;
+	padding: 1.5rem 0 1.5rem 0;
+	max-width: 100%;
 }
 
 .footer-logos{
 	display: flex;
 	justify-content: center;
 
+}
+
+.footer-logos img{
+	margin: 0 0.5rem;
 }
 
 
