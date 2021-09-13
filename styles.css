@@ -296,31 +296,31 @@ a{
 }
 
 .img-logo{
-	width: 20%;
+	width: 15%;
 }
 
 hr{
-	background-color: black;
+	background-color: rgb(250, 19, 19);
 	font-weight: bolder;
-	width: 10%;
+	width: 20%;
 }
 
 .program{
+	padding:10rem 0 0 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-content: center;
 	align-items: center;
 	background-color: #272a31;
 	color: #fff;
 	/* border: 1px solid red; */
-
-
-}
+} 
 
 .courses{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 2rem;
 }
 
 .html,.css,.script,.backend{
@@ -331,16 +331,25 @@ hr{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	align-content: center;
 	height: 20rem;
-
 }
 
-.script p{
-	padding-left: 0.5rem;
-
-
+h5{
+	font-size: 1rem;
+	font-weight: normal;
+	color: red;
 }
+
+.html p, .css p, .script p,.backend p{
+	font-size: small;
+	max-width: 80%;
+}
+
+u{
+	padding:1rem 0 3rem 0;
+}
+
+
 @media screen and (max-width: 760px) {
 
 	:root {
