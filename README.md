@@ -4,7 +4,7 @@
 >
 This project displays a full website of a bootcamp school. This was built with Html, Css,Java script,Vscode,Git and Github. 
 
-![screenshot]()
+![screenshot](img/bootcamp.png)
 
 
 ## Built With
@@ -15,7 +15,9 @@ This project displays a full website of a bootcamp school. This was built with H
 
 ## Live Demo
 
-[Live Demo Link](https://)
+[Live Demo Link](https://chukwuebukavictor.github.io/Zenith-Bootcamp/)
+
+[Loom Video Link](https://www.loom.com/share/ce13b86e94284ed08e6ca391147dea40)
 
 ## Getting Started
 
