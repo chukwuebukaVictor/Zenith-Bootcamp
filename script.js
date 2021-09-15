@@ -36,9 +36,9 @@ const speakersArray = [
 ];
 
 window.addEventListener('load', () => {
-  for (let i = 0; i < speakersArray.length; i++){
+  for (let i = 0; i < speakersArray.length; i++) {
     speakerName[i].textContent = speakersArray[i].name;
     speakerJob[i].textContent = speakersArray[i].job;
     speakerDesc[i].textContent = speakersArray[i].description;
-	}
+  }
 });
