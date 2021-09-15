@@ -37,11 +37,12 @@ a{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-right: 3rem;
+	border: 1px solid rgb(87, 84, 84);
+	padding: 0;
 }
 
 .footer-logo-text{
-	font-size: 0.8rem;
+	font-size: rem;
 
 }
 
@@ -66,13 +67,14 @@ a{
 .nav2{
 	display: flex;
 	justify-content: space-between;
-	padding: 0 3rem 1.2rem 3rem;
+	padding-left:5rem;
+	/* padding-bottom: 0.5rem; */
 }
 
 .nav2-items{
 	display: flex;
-	justify-content: space-between;
-	width: 30rem;
+	justify-content:flex-end;
+	width: 100%;
 	align-items: center;
 	margin-right: 5rem;
 }
@@ -268,6 +270,7 @@ a{
 	display: flex;
 	justify-content: center;
 	width: 100vw;
+	/* border: 1px solid red; */
 	height: 20rem;
 	align-items: center;
 	top: 0;
@@ -659,7 +662,7 @@ margin-top: 3rem;
 
 	.nav1-items a,
 	.nav2-items a{
-		line-height: 3;
+		line-height: 2;
 	}
 
 .toggler{
