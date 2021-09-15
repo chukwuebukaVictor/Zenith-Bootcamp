@@ -713,7 +713,6 @@ u {
     transition: opacity 0.4s ease;
   }
 
-
   /* toggler animate */
 
   .menu-wrap .toggler:checked + .hamburger > div {
