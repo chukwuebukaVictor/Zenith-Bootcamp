@@ -26,6 +26,25 @@ a{
 	max-width: 4rem;
 }
 
+.logo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-logo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-right: 3rem;
+}
+
+.footer-logo-text{
+	font-size: 0.8rem;
+
+}
+
 .nav1{
 	background-color: #212529;
 }
@@ -43,17 +62,11 @@ a{
 	margin: 0 1rem;
 }
 
-/* .nav1-items:hover{
-	cursor: pointer;
-	text-decoration: none;
-	list-style: none;
-} */
 
 .nav2{
 	display: flex;
 	justify-content: space-between;
-	padding-left: 5rem;
-	padding-bottom: 1.2rem;
+	padding: 0 3rem 1.2rem 3rem;
 }
 
 .nav2-items{
@@ -217,11 +230,13 @@ a{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 2rem;
 }
 
-.about-logo h6{
+.logo-text{
 	font-weight: 600;
 	margin: 0 2rem;
+	font-size: small;
 }
 
 .about-logo p{
@@ -232,7 +247,72 @@ a{
 
 .about-logo h2{
 	padding-top: 1rem;
+	font-weight: bolder;
 }
+
+
+
+.about-courses{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-courses h2{
+	font-weight: bolder;
+}
+
+.about-img-courses{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 20rem;
+	align-items: center;
+	top: 0;
+}
+
+
+
+.about-img2, .about-img1{
+	position: relative;
+	background: #000 url(img/system4.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 4rem;
+	color: #fff;
+	height: 17rem;
+	width: 30rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+
+.about-img2>div:hover{
+	display: none;
+}
+
+.about-img1>div:hover{
+	display: none;
+}
+
+.color-overlay{
+	width: 100%;
+	height: 100%;
+	background: red;
+	opacity: 0.5;
+	position: absolute;
+}
+
+.about-img-courses li p{
+	z-index: 1;
+	font-weight: bold;
+}
+
 
 .para{
 	position: relative;
@@ -345,8 +425,7 @@ u{
 }
 
 .footer2-img img{
-	width: 15%;
-	padding-right: 1rem;
+	width: 4rem;
 }
 
 .footer2{
@@ -361,7 +440,7 @@ u{
 	margin-left: 4rem;
 }
 
-h6{
+.footer-desc{
 	margin-right: 4rem;
 }
 
@@ -435,6 +514,28 @@ margin-top: 3rem;
 		--primary-color: rgba(169, 171, 172, 0.88);
 		--overlay-color: rgba(13, 15, 17, 0.85);
 		--menu-speed: 0.75s;
+	}
+
+
+
+	.about-courses{
+		margin-top: 2rem ;
+
+	}
+
+	.about-img-courses{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		
+	}
+	
+
+	.about-img1, .about-img2{
+		margin: 2rem 0;
+		height: 17rem;
 	}
 
 	.about-logo{
