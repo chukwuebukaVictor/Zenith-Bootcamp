@@ -56,11 +56,16 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://).
+Feel free to check the [issues page](https://github.com/chukwuebukaVictor/Zenith-Bootcamp/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Original design idea by Cindy Shin in Behance
+
 
 ## 📝 License
 

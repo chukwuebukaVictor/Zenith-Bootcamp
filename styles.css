@@ -23,7 +23,7 @@ a {
 }
 
 .logo img {
-  max-width: 3.5rem;
+  max-width: 80%;
 }
 
 .logo {
@@ -33,17 +33,6 @@ a {
   margin-bottom: 0.2rem;
 }
 
-.footer-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-right: 0.2rem;
-}
-
-.footer-logo-text {
-  font-size: 0.8rem;
-}
 
 .nav1 {
   background-color: #3e3e3e;
@@ -294,12 +283,6 @@ a {
   position: absolute;
 }
 
-.pro p {
-  max-width: 100%;
-  margin: 0 0 5rem 0;
-  padding: 1rem;
-  font-size: 0.8rem;
-}
 
 .about-img-courses li p {
   z-index: 1;
@@ -347,26 +330,42 @@ a {
   padding: 1rem 0 0 0;
 }
 
-.courses {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 5rem 0 5rem;
-  height: 100%;
+.pro h5{
+  color: #ec4b3a;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
 }
 
-.pro {
+.pro p{
+  font-size: 0.8rem;
+  margin: 0 1rem 0.5rem 1rem;
+  text-align: center;
+}
+
+.courses{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 3rem;
+  max-width: 70%;
+}
+
+.pro{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background-color: #3d4046;
   margin: 0 0.1rem;
-  background-color: #3c3f45;
-  color: #fff;
 }
 
+
+
+
 .img-logo {
-  width: 3rem;
+  max-width: 20%;
   align-self: center;
+  padding-top: 1rem;
 }
 
 hr {
@@ -410,7 +409,7 @@ u {
 
 .footer-about {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #2e2e2e;
   padding: 3.5rem 0;
@@ -420,7 +419,7 @@ u {
 
 .footer2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #d7d7d7;
   max-width: 100%;
@@ -437,9 +436,22 @@ u {
   margin-right: 4rem;
 }
 
-.footer2-img h6 {
-  font-weight: bolder;
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.footer-logo-text {
+  font-weight: bolder;
+  font-size: 0.5rem;
+  max-width: 2rem;
+  align-self: center;
+  margin-right: 0.6rem;
+}
+
 
 .join-us {
   display: none;
@@ -457,6 +469,7 @@ u {
 
 .speaker-job {
   font-size: 0.8rem;
+  color: #e85242;
 }
 
 .speakers {
@@ -477,12 +490,13 @@ u {
 .speaker-name {
   font-size: 1rem;
   font-weight: 600;
+  color: #535353;
 }
 
 .speaker-group img {
-  max-width: 7rem;
-  height: 7rem;
-  margin: 0 1rem 4rem 0;
+  max-width: 30%;
+  height: 30%;
+  margin: 0 0.5rem 1rem 0;
 }
 
 .speaker-hr {
@@ -495,8 +509,8 @@ u {
 }
 
 .speaker-desc-holder {
-  margin: 0 2rem 4rem 0;
-  width: 13rem;
+  margin: 0 2rem 0 0;
+  max-width: 50%;
 }
 
 @media screen and (max-width: 762px) {
@@ -506,13 +520,21 @@ u {
     --menu-speed: 0.75s;
   }
 
+  .pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   .showcase {
     padding: 1rem;
   }
 
-  .speaker-group img {
+  /* .speaker-group img {
     max-width: 100%;
-  }
+  } */
 
   .speakers-group {
     display: flex;
@@ -543,52 +565,36 @@ u {
     max-width: 100%;
   }
 
-  .pro p {
-    align-self: center;
-    margin: auto;
-    max-width: 100%;
-    text-align: left;
-    height: auto;
-    padding: 1rem 3rem 1rem 1rem;
-  }
-
+  
   .speaker-desc-holder {
-    margin-top: 2rem;
+    margin-right: 1rem;
   }
 
   .img-logo {
-    margin: 0;
-    padding: 0 1rem 0 2rem;
-    width: 7rem;
+    padding: 1rem 0rem 1rem 1rem;
+  
   }
 
-  .pro h5 {
-    margin-left: 0.5rem;
-    max-width: 5rem;
-    color: #ec5242;
-    font-size: 1rem;
-    font-weight: 600;
+  .pro h5{
+    margin: 0 0.5rem;
+    padding: 0;
   }
 
-  .program {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+  .pro p{
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    font-size: 0.8rem;
+    text-align: left;
   }
 
-  .pro {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    margin: 0.1rem 0;
-    padding: 2rem 0.5rem 2rem 0.5rem;
+  .pro{
+    margin-top: 0.5rem;
   }
+
+  
+
+ 
+
+  
 
   .nav1-logout {
     margin: 0;
