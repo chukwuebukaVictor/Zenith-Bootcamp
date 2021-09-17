@@ -33,7 +33,6 @@ a {
   margin-bottom: 0.2rem;
 }
 
-
 .nav1 {
   background-color: #3e3e3e;
 }
@@ -283,6 +282,11 @@ a {
   position: absolute;
 }
 
+.pro p {
+  font-size: 0.8rem;
+  margin: 0 1rem 0.5rem 1rem;
+  text-align: center;
+}
 
 .about-img-courses li p {
   z-index: 1;
@@ -330,27 +334,21 @@ a {
   padding: 1rem 0 0 0;
 }
 
-.pro h5{
+.pro h5 {
   color: #ec4b3a;
   font-size: 1rem;
   font-weight: bold;
   padding-top: 0.5rem;
 }
 
-.pro p{
-  font-size: 0.8rem;
-  margin: 0 1rem 0.5rem 1rem;
-  text-align: center;
-}
-
-.courses{
+.courses {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 3rem;
   max-width: 70%;
 }
 
-.pro{
+.pro {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -358,9 +356,6 @@ a {
   background-color: #3d4046;
   margin: 0 0.1rem;
 }
-
-
-
 
 .img-logo {
   max-width: 20%;
@@ -436,7 +431,6 @@ u {
   margin-right: 4rem;
 }
 
-
 .footer-logo {
   display: flex;
   flex-direction: column;
@@ -451,7 +445,6 @@ u {
   align-self: center;
   margin-right: 0.6rem;
 }
-
 
 .join-us {
   display: none;
@@ -520,21 +513,17 @@ u {
     --menu-speed: 0.75s;
   }
 
-  .pro{
+  .pro {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 0.5rem;
   }
-
 
   .showcase {
     padding: 1rem;
   }
-
-  /* .speaker-group img {
-    max-width: 100%;
-  } */
 
   .speakers-group {
     display: flex;
@@ -565,36 +554,24 @@ u {
     max-width: 100%;
   }
 
-  
   .speaker-desc-holder {
     margin-right: 1rem;
   }
 
   .img-logo {
-    padding: 1rem 0rem 1rem 1rem;
-  
+    padding: 1rem 0 1rem 1rem;
   }
 
-  .pro h5{
+  .pro h5 {
     margin: 0 0.5rem;
     padding: 0;
   }
 
-  .pro p{
+  .pro p {
     margin: 0.5rem 0.5rem 0.5rem 0;
     font-size: 0.8rem;
     text-align: left;
   }
-
-  .pro{
-    margin-top: 0.5rem;
-  }
-
-  
-
- 
-
-  
 
   .nav1-logout {
     margin: 0;
