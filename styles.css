@@ -38,7 +38,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-right: 1.5rem;
+  padding-right: 0.2rem;
 }
 
 .footer-logo-text {
@@ -234,6 +234,7 @@ a {
 .about-logo h2 {
   padding-top: 1rem;
   font-weight: bolder;
+  text-align: center;
 }
 
 .about-courses {
@@ -246,6 +247,7 @@ a {
 
 .about-courses h2 {
   font-weight: bolder;
+text-align: center;
 }
 
 .about-img-courses {
@@ -273,6 +275,7 @@ a {
   align-items: center;
   font-size: 1.5rem;
   text-align: center;
+  max-width: 100%;
 }
 
 .about-img2 > div:hover {
@@ -387,7 +390,7 @@ u {
   align-items: center;
   background-color: #414246;
   color: #fff;
-  padding: 2rem;
+  padding: 2.5rem;
   max-width: 100%;
 }
 
@@ -402,7 +405,7 @@ u {
 }
 
 .footer2-img img {
-  width: 4rem;
+  max-width: 30%;
 }
 
 .footer-about {
@@ -420,14 +423,15 @@ u {
   justify-content: space-between;
   align-items: center;
   background-color: #d7d7d7;
-  padding: 2rem 0;
   max-width: 100%;
 }
 
 .footer2-img {
   display: flex;
   align-items: center;
-  margin-left: 4rem;
+  margin:0.5rem 0 0 1rem;
+  max-width: 100%;
+
 }
 
 .footer-desc {
