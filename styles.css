@@ -23,14 +23,14 @@ a {
 }
 
 .logo img {
-  max-width: 80%;
+  max-width: 40%;
 }
 
 .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 0.2rem;
+  margin: 0 0 0.3rem 1rem;
 }
 
 .nav1 {
@@ -110,7 +110,7 @@ a {
   flex-direction: column;
   max-width: 100%;
   margin: auto;
-  padding-left: 7rem;
+  padding-left: 6rem;
 }
 
 .showcase::before,
@@ -386,6 +386,7 @@ u {
   color: #fff;
   padding: 2.5rem;
   max-width: 100%;
+  height: auto;
 }
 
 .footer-logos {
@@ -410,6 +411,7 @@ u {
   padding: 3.5rem 0;
   max-width: 100%;
   color: #fff;
+  height: auto;
 }
 
 .footer2 {
@@ -464,6 +466,7 @@ u {
 .speaker-job {
   font-size: 0.8rem;
   color: #e85242;
+  font-style: italic;
 }
 
 .speakers {
@@ -478,7 +481,6 @@ u {
 
 .speaker-desc {
   font-size: 0.8rem;
-  background-color: #d7d7d7;
 }
 
 .speaker-name {
