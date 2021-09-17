@@ -404,7 +404,7 @@ u {
 
 .footer-about {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #2e2e2e;
   padding: 3.5rem 0;
@@ -414,17 +414,21 @@ u {
 
 .footer2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #d7d7d7;
   max-width: 100%;
 }
 
+
+
 .footer2-img {
   display: flex;
   align-items: center;
-  margin: 0.5rem 0 0 1rem;
+  justify-content: center;
+  margin: 0.5rem 0 0 0;
   max-width: 100%;
+
 }
 
 .footer-desc {
