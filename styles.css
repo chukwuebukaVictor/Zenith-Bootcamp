@@ -247,7 +247,7 @@ a {
 
 .about-courses h2 {
   font-weight: bolder;
-text-align: center;
+  text-align: center;
 }
 
 .about-img-courses {
@@ -429,9 +429,8 @@ u {
 .footer2-img {
   display: flex;
   align-items: center;
-  margin:0.5rem 0 0 1rem;
+  margin: 0.5rem 0 0 1rem;
   max-width: 100%;
-
 }
 
 .footer-desc {
@@ -534,6 +533,7 @@ u {
 
   .speakers h2 {
     padding-top: 2rem;
+    text-align: center;
   }
 
   .courses {
