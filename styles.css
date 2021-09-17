@@ -446,6 +446,7 @@ u {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 100%;
+
   /* margin: 0 4rem; */
   justify-content: center;
   align-items: center;
@@ -502,13 +503,12 @@ u {
     --menu-speed: 0.75s;
   }
 
-  .showcase{ 
+  .showcase {
     padding: 1rem;
   }
 
   .speaker-group img {
     max-width: 100%;
-
   }
 
   .speakers-group {
@@ -548,7 +548,7 @@ u {
     padding: 1rem 3rem 1rem 1rem;
   }
 
-  .speaker-desc-holder{
+  .speaker-desc-holder {
     margin-top: 2rem;
   }
 
