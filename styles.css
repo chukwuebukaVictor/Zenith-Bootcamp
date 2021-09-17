@@ -111,7 +111,6 @@ a {
 .campaign {
   color: red;
   border: 2px solid red;
-  padding: 0.5;
   align-self: center;
   margin: 0 2.5rem 0 0;
 }
@@ -123,7 +122,7 @@ a {
   flex-direction: column;
   max-width: 100%;
   margin: auto;
-  padding-left: 6rem;
+  padding-left: 7rem;
 }
 
 .showcase::before,
@@ -299,7 +298,6 @@ a {
   font-size: 0.8rem;
 }
 
-
 .about-img-courses li p {
   z-index: 1;
   font-weight: bold;
@@ -363,10 +361,8 @@ a {
   color: #fff;
 }
 
-
 .img-logo {
   width: 3rem;
-
   align-self: center;
 }
 
@@ -449,7 +445,6 @@ u {
 .speakers-group {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 0;
   max-width: 100%;
   margin: 0 4rem;
   justify-content: center;
@@ -472,7 +467,6 @@ u {
 
 .speaker-desc {
   font-size: 0.8rem;
-
   background-color: #d7d7d7;
 }
 
@@ -508,10 +502,9 @@ u {
     --menu-speed: 0.75s;
   }
 
-  .speaker-group img{
+  .speaker-group img {
     margin: 0 1rem 2rem 0;
   }
-
 
   .speakers-group {
     display: flex;
@@ -528,7 +521,7 @@ u {
 
   .speaker-group {
     width: 30rem;
-    margin:0 10rem 0 0;
+    margin: 0 10rem 0 0;
   }
 
   .speakers h2 {
@@ -625,16 +618,10 @@ u {
     background-color: #2d2f30;
   }
 
-
-
-
   .script,
   .backend {
     align-items: center;
   }
-
-
-
 
   .join-us {
     display: block;
