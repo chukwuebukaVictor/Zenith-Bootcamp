@@ -49,10 +49,9 @@ a {
   background-color: #3e3e3e;
 }
 
-.nav1-logout{
+.nav1-logout {
   margin: 0 7rem 0 0;
 }
-
 
 .nav1-items {
   display: flex;
@@ -64,11 +63,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0 0rem 5rem;
-    position: relative;
-    top: -15.6px;
-    background-color:#fff;
-
+  padding: 0 0 0 5rem;
+  position: relative;
+  top: -15.6px;
+  background-color: #fff;
 }
 
 .nav2-items {
@@ -78,7 +76,6 @@ a {
   align-items: center;
   padding-top: 0.7rem;
   margin-right: 5rem;
-
 }
 
 .nav2-link {
@@ -107,8 +104,6 @@ a {
   align-items: center;
 }
 
-
-
 .about {
   color: red;
 }
@@ -128,7 +123,7 @@ a {
   flex-direction: column;
   max-width: 100%;
   margin: auto;
-  padding: 0 7rem;
+  padding-left: 6rem;
 }
 
 .showcase::before,
@@ -142,7 +137,6 @@ a {
   bottom: 0;
   left: 0;
   opacity: 0.4;
-
 }
 
 .showcase h1 {
@@ -175,7 +169,6 @@ a {
   color: #e85242;
   font-size: 3rem;
   line-height: 1.2;
-
   margin-top: 5rem;
   max-width: 45rem;
   font-weight: 600;
@@ -261,7 +254,6 @@ a {
   display: flex;
   justify-content: center;
   width: 100vw;
-
   height: 20rem;
   align-items: center;
   top: 0;
@@ -284,10 +276,6 @@ a {
   text-align: center;
 }
 
-
-
-
-
 .about-img2 > div:hover {
   display: none;
 }
@@ -304,6 +292,12 @@ a {
   position: absolute;
 }
 
+.pro p {
+  max-width: 100%;
+  margin: 0 0 5rem 0;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
 
 
 .about-img-courses li p {
@@ -341,7 +335,7 @@ a {
   padding-left: 0;
 }
 
-.program{
+.program {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -351,16 +345,16 @@ a {
   color: #fff;
   padding: 1rem 0 0 0;
 }
-.courses{
+
+.courses {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 5rem 0rem 5rem;
-
+  margin: 0 5rem 0 5rem;
   height: 100%;
 }
 
-.pro{
+.pro {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -369,17 +363,10 @@ a {
   color: #fff;
 }
 
-.pro p{
-  max-width: 100%;
-  margin: 0 0 5rem 0;
-  padding: 1rem;
-  font-size: 0.8rem;
-}
-
 
 .img-logo {
   width: 3rem;
-  /* padding-top: 1rem; */
+
   align-self: center;
 }
 
@@ -389,14 +376,9 @@ hr {
   width: 3rem;
 }
 
-
-
-
-
 .pro:hover {
   border: 1px solid #fff;
 }
-
 
 u {
   padding: 1rem 0 5rem 0;
@@ -427,7 +409,7 @@ u {
   width: 4rem;
 }
 
-.footer-about{
+.footer-about {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -435,7 +417,6 @@ u {
   padding: 3.5rem 0;
   max-width: 100%;
   color: #fff;
-
 }
 
 .footer2 {
@@ -465,10 +446,9 @@ u {
   display: none;
 }
 
-.speakers-group{
-  display:grid;
+.speakers-group {
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  max-height: auto;
   margin-bottom: 0;
   max-width: 100%;
   margin: 0 4rem;
@@ -476,50 +456,49 @@ u {
   align-items: center;
 }
 
-.speaker-job{
+.speaker-job {
   font-size: 0.8rem;
 }
 
-
-.speakers{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- align-content: center;
- margin: 0 5rem;
- padding-top: 1rem;
+.speakers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 5rem;
+  padding-top: 1rem;
 }
 
-.speaker-desc{
+.speaker-desc {
   font-size: 0.8rem;
-  /* margin-right: 1rem; */
+
   background-color: #d7d7d7;
 }
 
-.speaker-name{
+.speaker-name {
   font-size: 1rem;
   font-weight: 600;
 }
 
-.speaker-group img{
+.speaker-group img {
   max-width: 7rem;
   height: 7rem;
   margin: 1rem 1rem 0 0;
 }
- .speaker-hr{
-   background-color: #3c3f45;
- }
 
-.speaker-group{
+.speaker-hr {
+  background-color: #3c3f45;
+}
+
+.speaker-group {
   display: flex;
   align-items: center;
 }
 
-.speaker-desc-holder{
+.speaker-desc-holder {
   margin-right: 3rem;
   width: 12rem;
-
 }
 
 @media screen and (max-width: 762px) {
@@ -529,66 +508,64 @@ u {
     --menu-speed: 0.75s;
   }
 
-  .speakers-group{
-    display: flex;
-    flex-direction:column;
-    
+  .speaker-group img{
+    margin: 0 1rem 2rem 0;
   }
 
-  .speakers{
+
+  .speakers-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speakers {
     background-color: #d7d7d7;
     max-width: 100%;
     margin: 0;
     height: 100%;
-    padding:0 0 2rem 4rem;
-    
+    padding: 0 0 2rem 4rem;
   }
 
-
-
   .speaker-group {
-margin: 0;
-width: 30rem;
-margin-right: 10rem;
-}
-  
-  .speakers h2{
+    width: 30rem;
+    margin:0 10rem 0 0;
+  }
+
+  .speakers h2 {
     padding-top: 2rem;
   }
 
-  .courses{
+  .courses {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 100%;
   }
 
-  .pro p{
+  .pro p {
     align-self: center;
-  margin: auto;
-  max-width: 100%;
-  text-align: left;
-  height: auto;
-  padding:1rem 3rem 1rem 1rem;
-  
+    margin: auto;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    padding: 1rem 3rem 1rem 1rem;
   }
 
-  .img-logo{
+  .img-logo {
     margin: 0;
-    padding:0 1rem 0 2rem;
+    padding: 0 1rem 0 2rem;
     width: 7rem;
   }
 
-  .pro h5{
+  .pro h5 {
     margin-left: 0.5rem;
     max-width: 5rem;
     color: #ec5242;
     font-size: 1rem;
     font-weight: 600;
-
   }
 
-  .program{
+  .program {
     max-width: 100%;
     height: auto;
     display: flex;
@@ -597,24 +574,22 @@ margin-right: 10rem;
     align-content: center;
   }
 
-
-  .pro{
+  .pro {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     width: 100%;
     height: auto;
     margin: 0.1rem 0;
     padding: 2rem 0.5rem 2rem 0.5rem;
   }
 
-  .nav1-logout{
+  .nav1-logout {
     margin: 0;
   }
 
-  .campaign{
+  .campaign {
     margin: 0;
   }
 
@@ -650,17 +625,16 @@ margin-right: 10rem;
     background-color: #2d2f30;
   }
 
-  
 
 
-  
-  .script, .backend{
+
+  .script,
+  .backend {
     align-items: center;
   }
 
 
-  
-  
+
 
   .join-us {
     display: block;
